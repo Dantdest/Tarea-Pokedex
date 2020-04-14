@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #222222;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  form input {
+    margin-right: 10px;
+    flex: 2;
+  }
+
+  form button {
+    flex: 1;
+  }
+
+  h1 {
+    margin: 0 0 5px 0;
+    text-align: center;
+  }
+
+  input[type="text"],
+  button {
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #todo-app {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  ul li:last-child {
+    border-bottom: none;
+  }
+  label{
+      padding: 2px;
+  }
+  input#intR{
+      text-justify: distribute; 
+      width: 50px;
+      margin-right: 20px;
+  }
+  div.made{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
